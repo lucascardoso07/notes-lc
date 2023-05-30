@@ -55,4 +55,8 @@ export const StyledForm = styled.div`
     background-color: var(--gray2);
     color: var(--primary-color);
   }
+
+  @media (max-width: 1000px) {
+    width: 100%;
+  }
 `;

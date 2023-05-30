@@ -40,4 +40,8 @@ export const StyledCardList = styled.li`
     background-color: var(--gray2);
     color: var(--primary-color);
   }
+
+  @media (max-width: 1000px) {
+    width: 100%;
+  }
 `;
